@@ -1,0 +1,49 @@
+.charactercardcontainer{
+  display: flex;
+  justify-content: flex-start;
+  padding: 2%;
+  border: 2px solid black;
+  border-radius: 20%;
+}
+
+
+.charactercardcontainer img{
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    cursor: hover;
+}
+
+
+.charactercardinfo{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+
+.paginador{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
+}
+
+.prev{
+  cursor: hover;
+  color: aquamarine;
+}
+.next{
+  cursor: hover;
+  color: aquamarine;
+}
+
+.nameinfo{
+    background-color: aquamarine;
+    border: 2px solid black;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 8px;
+}
+
+
