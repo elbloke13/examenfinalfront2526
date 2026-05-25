@@ -21,8 +21,6 @@ const CharactersPage = () => {
 
     const fetchCharacters = async () => {
 
-      setLoading(true);
-
         try{
           const characters = await getCharacters(page,name,gender,status);
           setCharacters(characters);
